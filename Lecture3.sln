@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture3", "Lecture3\Lecture3.csproj", "{639CF1FD-D6DD-42D8-82EE-AE6535F5C99C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryClasses", "GeometryClasses\GeometryClasses.csproj", "{61A5DD57-553F-4FD4-9F21-B5C230D622AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{639CF1FD-D6DD-42D8-82EE-AE6535F5C99C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{639CF1FD-D6DD-42D8-82EE-AE6535F5C99C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{639CF1FD-D6DD-42D8-82EE-AE6535F5C99C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{639CF1FD-D6DD-42D8-82EE-AE6535F5C99C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61A5DD57-553F-4FD4-9F21-B5C230D622AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61A5DD57-553F-4FD4-9F21-B5C230D622AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61A5DD57-553F-4FD4-9F21-B5C230D622AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61A5DD57-553F-4FD4-9F21-B5C230D622AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {211BC360-C932-49F8-92BE-9E53EB4E3698}
+	EndGlobalSection
+EndGlobal
