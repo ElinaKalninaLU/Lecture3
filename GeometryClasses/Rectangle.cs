@@ -31,6 +31,15 @@ namespace GeometryClasses
             }
         }
 
+        public Rectangle()
+        { }
+
+        public Rectangle(int h, int w)
+        {
+            Height = h;
+            Width = w;
+        }
+
         public override int Perimeter()
         {
             return 2*Height+2*Width;
