@@ -1,4 +1,5 @@
-﻿namespace MauiAppLecture5
+﻿using GeometryClasses;
+namespace MauiAppLecture5
 {
     public partial class App : Application
     {
@@ -7,6 +8,9 @@
             InitializeComponent();
 
             MainPage = new AppShell();
+            dm = new FigureXMLDataManager();
         }
+
+        public static FigureXMLDataManager dm { get; set; }
     }
 }

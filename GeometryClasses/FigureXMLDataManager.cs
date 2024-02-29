@@ -13,6 +13,13 @@ namespace GeometryClasses
         private List<Figure> _figureList;
         private string _path = "C:\\Test\\figures.xml";
 
+        public List<Figure> FigureList
+        {
+            get { return _figureList; }
+            set { _figureList = value; }
+        }
+
+
         public FigureXMLDataManager() 
             { _figureList = new List<Figure>(); }
 

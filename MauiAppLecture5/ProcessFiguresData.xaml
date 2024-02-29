@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppLecture5.ProcessFiguresData"
+             Title="ProcessFiguresData">
+    <VerticalStackLayout>
+        <Button x:Name="CreatreTestDataBtn" Clicked="CreatreTestData_Clicked" Text="Create Test Data"></Button>
+        <Button x:Name="ShowDataBtn" Clicked="ShowDataBtn_Clicked" Text="Show Data"></Button>
+        <Button x:Name="ResetDataBtn" Clicked="ResetDataBtn_Clicked" Text="Rset Data"></Button>
+        <Button x:Name="SaveDataBtn" Clicked="SaveDataBtn_Clicked" Text="Save Data"></Button>
+        <Button x:Name="LoadDataBtn" Clicked="LoadDataBtn_Clicked" Text="Load Data"></Button>
+        <Label 
+            x:Name="infoLbl"
+            Text="Empty"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>

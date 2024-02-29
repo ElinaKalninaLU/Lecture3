@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppLecture5.CreateRectangle"
+             Title="CreateRectangle">
+    <VerticalStackLayout>
+        <Label 
+      Text="Enter Height" />
+        <Entry x:Name="HeightTxt" Text="1"></Entry>
+        <Label 
+      Text="Enter Width" />
+        <Entry x:Name="WidthTxt" Text="1"></Entry>
+        <Button x:Name="CreateRectangleBtn" Text="Create Rectangle" Clicked="CreateRectangleBtn_Clicked"></Button>
+        <Label x:Name="InfoLbl"></Label>
+    </VerticalStackLayout>
+</ContentPage>

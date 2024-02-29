@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppLecture5.CreateSquare"
+             Title="CreateSquare">
+    <VerticalStackLayout>
+        <Label 
+            Text="Enter Edge" />
+        <Entry x:Name="EdgeTxt" Text="1"></Entry>
+        <Button x:Name="CreateSquareBtn" Text="Create Square" Clicked="CreateSquareBtn_Clicked"></Button>
+        <Label x:Name="InfoLbl"></Label>
+    </VerticalStackLayout>
+</ContentPage>

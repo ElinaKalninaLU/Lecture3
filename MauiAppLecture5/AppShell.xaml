@@ -4,12 +4,25 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:MauiAppLecture5"
-    Shell.FlyoutBehavior="Disabled"
+    Shell.FlyoutBehavior="Flyout"
     Title="MauiAppLecture5">
 
+
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
+        Title="Create Rectangle"
+        ContentTemplate="{DataTemplate local:CreateRectangle}"
+        Route="CreateRectangle" />
+    <ShellContent
+        Title="Create Square"
+        ContentTemplate="{DataTemplate local:CreateSquare}"
+        Route="CreateSquare" />
+    <ShellContent
+         Title="Figure data"
+         ContentTemplate="{DataTemplate local:ProcessFiguresData}"
+         Route="ProcessFiguresData" />
+    <ShellContent
+        Title="Delete figure"
+        ContentTemplate="{DataTemplate local:EditFigures}"
         Route="MainPage" />
 
 </Shell>
