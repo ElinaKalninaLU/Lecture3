@@ -22,6 +22,7 @@ public partial class EditFigures : ContentPage
     {
         if (IsEditingChx.IsChecked)
         {
+            //edit mode
             if (FiguresLst.SelectedItem != null)
             {
                 if (FiguresLst.SelectedItem is Square)
@@ -33,6 +34,7 @@ public partial class EditFigures : ContentPage
         }
         else
         { 
+            //delete mode
         if (FiguresLst.SelectedItem != null)
         {
             Figure f = (Figure)FiguresLst.SelectedItem;
