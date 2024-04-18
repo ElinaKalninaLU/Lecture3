@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lecture3", "Lecture3\Lectur
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeometryClasses", "GeometryClasses\GeometryClasses.csproj", "{61A5DD57-553F-4FD4-9F21-B5C230D622AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiAppLecture5", "MauiAppLecture5\MauiAppLecture5.csproj", "{E02C3AB2-9AA7-442E-A5F7-57F5C646AE68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiAppLecture5", "MauiAppLecture5\MauiAppLecture5.csproj", "{E02C3AB2-9AA7-442E-A5F7-57F5C646AE68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject_Lecture15", "TestProject_Lecture15\TestProject_Lecture15.csproj", "{8AF489E1-C033-4BE3-AEC3-516FD25C1CE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{E02C3AB2-9AA7-442E-A5F7-57F5C646AE68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E02C3AB2-9AA7-442E-A5F7-57F5C646AE68}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E02C3AB2-9AA7-442E-A5F7-57F5C646AE68}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8AF489E1-C033-4BE3-AEC3-516FD25C1CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF489E1-C033-4BE3-AEC3-516FD25C1CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF489E1-C033-4BE3-AEC3-516FD25C1CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF489E1-C033-4BE3-AEC3-516FD25C1CE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
